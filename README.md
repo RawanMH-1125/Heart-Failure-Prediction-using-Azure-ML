@@ -116,24 +116,27 @@ The best-performing configuration used:
 ### HyperDrive Metrics
 
 Azure ML generated multiple metrics and visualizations for evaluating model performance.
-<p align="center"> <img src="images/hyperdrive-best-run-metrics.png" width="750"/> </p>
+<p align="center"> <img src="images/hyperdrive-best-run-metrics.png" width="400"/> </p>
 The experiment demonstrated stable model performance with acceptable classification capability for predicting heart failure events.
 
 HyperDrive Visualization
 The visualization below shows the effect of different hyperparameter combinations on the AUC metric.
 <p align="center"> <img src="images/hyperdrive-trials-visualization.png" width="900"/> </p>
+
 This visualization helps analyze:
-	•	Hyperparameter influence
-	•	Trial performance
-	•	AUC progression
-	•	Best-performing configurations
+- Hyperparameter influence
+- Trial performance
+- AUC progression
+- Best-performing configurations
 
 HyperDrive Model Registration
 After identifying the best-performing HyperDrive run, the trained model was registered successfully inside Azure Machine Learning Studio.
 The registered model details include:
-	•	Model Name: hyperdrive-best-model
-	•	Version: 1
+- Model Name: hyperdrive-best-model
+- Version: 1
+	
 <p align="center"> <img src="images/hyperdrive-model-registration.png" width="850"/> </p>
+
 
 ---
 

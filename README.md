@@ -199,7 +199,8 @@ Additional evaluation charts included:
 - Cumulative Gains Curve
 - Confusion Matrix
 
-<p align="center"> <img src="images/automl-roc-pr.png" width="900"/> </p> <p align="center"> <img src="images/automl-calibration-lift.png" width="900"/> </p> <p align="center"> <img src="images/automl-confusion-matrix.png" width="900"/> </p>
+<p align="center"> <img src="images/automl-roc-pr.png" width="800"/> </p> <p align="center"> <img src="images/automl-calibration-lift.png" width="800"/> </p> <p align="center"> <img src="images/automl-confusion-matrix.png" width="800"/> </p>
+
 
 ---
 

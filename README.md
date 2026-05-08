@@ -266,9 +266,18 @@ Azure ML automatically tracked:
 - Metrics
 - Execution duration
 
-After deployment, the endpoint was tested using a sample inference request inside the Python notebook. The deployed model successfully returned a prediction response (`No`), confirming that the online endpoint was working correctly.
+The following screenshots show the Azure ML pipeline workflow and successful execution status.
 
-<p align="center"> <img src="images/pipeline-created.png" width="850"/> </p> <p align="center"> <img src="images/pipeline-completed.png" width="850"/> </p>
+<p align="center">
+  <img src="images/pipeline-created.png" width="850"/>
+</p>
+
+<p align="center">
+  <img src="images/pipeline-completed.png" width="850"/>
+</p>
+
+
+After deployment, the endpoint was tested using a sample inference request inside the Python notebook. The deployed model successfully returned a prediction response (`No`), confirming that the online endpoint was working correctly.
 
 
 
@@ -299,7 +308,7 @@ A sample inference request was sent successfully to the deployed endpoint to ver
 
 The endpoint returned a prediction result (`No`), confirming that the model deployment was active and operational.
 
-[Add inference request screenshot here]
+<p align="center"> <img src="images/test-endpoint.png" width="850"/> </p>
 
 
 ## Registered Models

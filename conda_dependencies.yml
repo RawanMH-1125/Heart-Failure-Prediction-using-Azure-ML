@@ -1,0 +1,16 @@
+name: sklearn-env
+
+dependencies:
+  - python=3.8
+  - pip:
+      - azureml-defaults
+      - protobuf==3.20.3
+      - cffi==1.15.1
+      - azureml-core
+      - azureml-dataset-runtime
+      - azureml-dataprep
+      - azureml-train-automl-client
+      - scikit-learn
+      - pandas
+      - numpy
+      - joblib

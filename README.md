@@ -256,6 +256,8 @@ The pipeline training step handled:
 
 ### Pipeline Execution
 
+Pipeline Execution
+
 The pipeline executed successfully inside Azure Machine Learning Studio.
 
 Azure ML automatically tracked:
@@ -276,8 +278,6 @@ The following screenshots show the Azure ML pipeline workflow and successful exe
   <img src="images/pipeline-completed.png" width="600"/>
 </p>
 
-
-After deployment, the endpoint was tested using a sample inference request inside the Python notebook. The deployed model successfully returned a prediction response (`No`), confirming that the online endpoint was working correctly.
 
 
 
@@ -306,9 +306,10 @@ Azure ML automatically generated endpoint consumption details, including:
 
 ### Sample Inference Request
 
-A sample inference request was sent successfully to the deployed endpoint to verify that the deployment was functioning correctly.
+After deployment, the endpoint was tested using a sample inference request inside the Python notebook.
 
-The endpoint returned a prediction result (`No`), confirming that the model deployment was active and operational.
+The deployed model successfully returned a prediction response (`No`), confirming that the online endpoint was working correctly.
+
 
 <p align="center"> <img src="images/test-endpoint.png" width="600"/> </p>
 
@@ -340,6 +341,14 @@ Several improvements could further enhance this project in the future:
 -	Implementing automated retraining pipelines
 -	Testing deep learning approaches
 -	Improving endpoint scalability and monitoring
+
+
+----
+
+## Author:
+
+# Rawan Alhammad
+Azure Machine Learning Project 
 
 
 

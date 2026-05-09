@@ -271,11 +271,11 @@ Azure ML automatically tracked:
 The following screenshots show the Azure ML pipeline workflow and successful execution status.
 
 <p align="center">
-  <img src="images/pipeline-created.png" width="600"/>
+  <img src="images/pipeline-created.png" width="400"/>
 </p>
 
 <p align="center">
-  <img src="images/pipeline-completed.png" width="600"/>
+  <img src="images/pipeline-completed.png" width="500"/>
 </p>
 
 
@@ -298,7 +298,7 @@ Azure ML automatically generated endpoint consumption details, including:
 - JSON request format
 
 <p align="center">
-  <img src="images/endpoint-overview.png" width="550"/>
+  <img src="images/endpoint-overview.png" width="600"/>
   &nbsp;&nbsp;&nbsp;
   <img src="images/endpoint-consume.png" width="450"/>
 </p>

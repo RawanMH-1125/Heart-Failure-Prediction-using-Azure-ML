@@ -256,7 +256,7 @@ The pipeline training step handled:
 
 ### Pipeline Execution
 
-The pipeline executed successfully inside Azure Machine Learning Studio.
+The pipeline was executed using a custom PythonScriptStep that automated the execution of the `train.py` training script on the Azure ML compute cluster.
 
 Azure ML automatically tracked:
 
@@ -265,11 +265,12 @@ Azure ML automatically tracked:
 - Outputs
 - Metrics
 - Execution duration
+  
+The following screenshots show the Azure ML pipeline configuration and successful execution status.
 
-The following screenshots show the Azure ML pipeline workflow and successful execution status.
 
 <p align="center">
-  <img src="images/pipeline-created.png" width="300"/>
+  <img src="images/pipeline-created.png" width="500"/>
 </p>
 
 <p align="center">

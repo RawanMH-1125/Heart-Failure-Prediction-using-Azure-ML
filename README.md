@@ -256,8 +256,6 @@ The pipeline training step handled:
 
 ### Pipeline Execution
 
-Pipeline Execution
-
 The pipeline executed successfully inside Azure Machine Learning Studio.
 
 Azure ML automatically tracked:
